@@ -6,3 +6,9 @@ def test_agregar_tarea():
     assert len(lista.tareas) == 1
     assert lista.tareas[0]["descripcion"] == "Comprar leche"
     assert not lista.tareas[0]["completada"]
+
+def test_marcar_como_completada():
+    lista = ListaDeTareas()
+    lista.agregar_tarea("Comprar leche")
+    lista.marcar_como_completada("Comprar leche")
+    assert lista.tareas[0]["completada"] is True
