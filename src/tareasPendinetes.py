@@ -1,6 +1,6 @@
 # tareasPendinetes.py
 from PySide6.QtWidgets import QApplication, QWidget, QListWidgetItem, QMessageBox
-from pantallaAppTareasPendientes import Ui_AppTareasPendientes
+from pantallaTareas import Ui_AppTareasPendientes
 
 class ListaDeTareas:
     def __init__(self):

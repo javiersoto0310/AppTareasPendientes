@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'pantallaAppTareasPendientes.ui'
+## Form generated from reading UI file 'pantallaAppTareasPendientes_modificado.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.2
 ##
@@ -17,6 +17,45 @@ class Ui_AppTareasPendientes(object):
         if not AppTareasPendientes.objectName():
             AppTareasPendientes.setObjectName(u"AppTareasPendientes")
         AppTareasPendientes.resize(341, 303)
+        AppTareasPendientes.setStyleSheet(u"\n"
+"QFrame {\n"
+"    background-color: #f0f0f0;\n"
+"    font-family: 'Arial', sans-serif;\n"
+"    font-size: 14px;\n"
+"}\n"
+"\n"
+"QLabel {\n"
+"    color: #333;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QLineEdit {\n"
+"    background-color: #ffffff;\n"
+"    border: 1px solid #ccc;\n"
+"    border-radius: 5px;\n"
+"    padding: 5px;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    background-color: #5cb85c;\n"
+"    color: #fff;\n"
+"    border: none;\n"
+"    padding: 10px 20px;\n"
+"    border-radius: 5px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #4cae4c;\n"
+"}\n"
+"\n"
+"QListWidget {\n"
+"    background-color: #ffffff;\n"
+"    border: 1px solid #ddd;\n"
+"    padding: 5px;\n"
+"    border-radius: 5px;\n"
+"}\n"
+"")
         self.gridLayout = QGridLayout(AppTareasPendientes)
         self.gridLayout.setObjectName(u"gridLayout")
         self.label = QLabel(AppTareasPendientes)
