@@ -1,3 +1,4 @@
+
 # AppToDo (AppTareasPendientes)
 Esta es una aplicación sencilla desarrollada utilizando Python y Qt para la interfaz gráfica de usuario (PySide6). La aplicación permite a los usuarios agregar, marcar como completadas y eliminar tareas. El proyecto sigue los principios de desarrollo basado en pruebas (TDD) y utiliza "pyenv" para la gestión de versiones de Python y "pip-tools" para gestionar las dependencias.
 
@@ -46,3 +47,6 @@ https://docs.github.com/es/repositories/creating-and-managing-repositories/cloni
 2-Para ejecutar la aplicación desde la terminal escribe la siguiente línea de comando.
 
 python src/tareasPendinetes.py
+=======
+# AppTareasPendientes
+
