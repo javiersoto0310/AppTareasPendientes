@@ -1,9 +1,10 @@
 .idea/
 .venv
 __pycache__
-pantallaTareas.py
+pantalla.py
 __pycache__/
 *.pyc
+.idea
 
 
 
