@@ -5,6 +5,8 @@ pantalla.py
 __pycache__/
 *.pyc
 .idea
+*.pyo
+
 
 
 
